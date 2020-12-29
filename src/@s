@@ -1,0 +1,33 @@
+import React from 'react'
+import styled from 'styled-components'
+import {withTheme} from './contexts/ScrollProvider.js'
+
+
+const StyledHeader = styled.div`
+  position: fixed;
+  top:100;
+  right: 1000;
+`
+const Shrinking = styled.span`
+  font-size: 30px;
+  transform: scale(${props => 10 - props.scrollPosition / 100})
+
+`
+const Growing = styled.span`
+  font-size: 0px;
+  transform: scale(${props => props.scrollPosition / 100})
+
+`
+
+
+function Header (props) {
+  console.log(props)
+  return (
+    <StyledHeader > 
+      <Shrinking scrollPosition={props.scrollPosition}>Klemen</Shrinking>
+      <Growing scrollPosition={props.scrollPosition}>Lampret</Growing>
+    </StyledHeader> 
+  )
+}
+
+export default withTheme(Header)
