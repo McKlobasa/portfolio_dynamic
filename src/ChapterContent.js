@@ -5,20 +5,20 @@ const Chapter = styled.p`
   color: var(--text);
   max-width: 700px;
   margin: auto;
-  padding: 20px;
-   font-family: "Trebuchet MS", sans-serif;
-  font-size: 20px;
-  text-align: justify;
-  text-justify: inter-word;
+  padding: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20;
+  text-align: left;
   line-height: 1.4;
   &::first-letter {
-    font-size: 40px;
+    font-size: 29px;
     font-weight: bold;
     color: white;
     background: var(--highlight);
     padding-right: 5px;
     padding-left: 5px;
-    border-radius: 5px;
+    padding-bottom: 0px;
+    border-radius: 0px 10px 0px 10px;
   }
 `
 

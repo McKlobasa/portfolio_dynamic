@@ -40,23 +40,22 @@ const GrowingWrapper1 = styled.div`
   flex-grow: 0;
   display: inline-block;
   margin-top: 0.5vh;
-  height: ${props => props.scrollPosition < 400? 0 : props.scrollPosition < 800? (props.scrollPosition - 400)/ 120 : 3.5}vh;
+  height: ${props => props.scrollPosition < 300? 0 : props.scrollPosition < 550? (props.scrollPosition - 300)/ 80 : 3.7}vh;
 `
 const GrowingWrapper2 = styled.div`
   flex: 1;
   flex-grow: 0;
   display: inline-block;
   margin-top: 0.2vh;
-  height: ${props => props.scrollPosition < 400? 0 : props.scrollPosition < 800? (props.scrollPosition - 400)/ 120 : 5}vh;
+  height: ${props => props.scrollPosition < 300? 0 : props.scrollPosition < 550? (props.scrollPosition - 300)/ 60 : 5}vh;
 `
 const NormalWrapper = styled.div`
   flex: 1;
   flex-grow: 0;
   display: inline-block;
-  height: ${props => props.scrollPosition < 400? 13.5 - props.scrollPosition/40  : 3.5}vh;
+  height: ${props => props.scrollPosition < 200? 13.5 - props.scrollPosition/20  : 3.5}vh;
   margin: 3px;
 `
-
 
 function Header (props) {
   console.log(props.scrollPosition)
