@@ -15,7 +15,7 @@ const Flag = styled.img`
 `
 const Container = styled.div`
   margin: auto;
-  width: 50vmin; 
+  width: 60vmin; 
   height: 25vmin;
 `
 const Button = styled.button`

@@ -7,7 +7,7 @@ const Chapter = styled.p`
   margin: auto;
   padding: 22px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20;
+  font-size: 20px;
   text-align: left;
   line-height: 1.4;
   &::first-letter {
