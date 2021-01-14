@@ -1,14 +1,22 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 import { ReactComponent as Tldr } from './images/tldr.svg'
 
+const comeInAnimation = keyframes`
+ 0% { height: 0px; width: 0px; }
+ 100% { height: 20vmin; width: 15vmin; }
+`
 const Flag = styled.img`
   height: 20vmin;
   width: 15vmin;
+  animation-name: ${comeInAnimation};
+  animation-duration: ${props => props.animationDuration}s;
+  animation-iteration-count: 1;
 `
 const Container = styled.div`
   margin: auto;
-  width: fit-content;
+  width: 50vmin; 
+  height: 25vmin;
 `
 const Button = styled.button`
   margin: 4vmin;
@@ -19,13 +27,10 @@ export default function Flags (props) {
   return (
     <Container>
       <Button>
-        <Tldr style={{width: '15vmin'}}/>
+        <Flag src={"https://hatscripts.github.io/circle-flags/flags/si.svg"} animationDuration={0.4}/>
       </Button>
       <Button>
-        <Flag src={"https://hatscripts.github.io/circle-flags/flags/si.svg"}/>
-      </Button>
-      <Button>
-	<Flag src={"https://hatscripts.github.io/circle-flags/flags/gb.svg"}/>
+	<Flag src={"https://hatscripts.github.io/circle-flags/flags/gb.svg"} animationDuration={0.8}/>
       </Button>
     </Container>
 

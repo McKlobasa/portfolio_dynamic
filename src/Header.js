@@ -58,7 +58,6 @@ const NormalWrapper = styled.div`
 `
 
 function Header (props) {
-  console.log(props.scrollPosition)
   return (
     <StyledHeader> 
       <FlexBox>

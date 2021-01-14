@@ -10,7 +10,6 @@ const ThemeProvider = (props) => {
   useEffect(() => {
     document.addEventListener('scroll', () => {
         setScrollPosition(window.scrollY)
-        console.log(window.scrollY)
     })
 
   }, [])
