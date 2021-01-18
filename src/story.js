@@ -22,7 +22,7 @@ const story = {
       'Sedaj pa si želim naprej. In naprej ne morem sam. Okoli sebe rabim druge ustvarjalce, druge ljudi, ki konceptom podarjajo življenja in smisel, od katerih lahko pobiram dobre prakse, učinkovite pristope, izkušnje in znanje. Nekaj časa je to šlo z branjem knjig in člankov predlaganih na hacker news, sedaj pa se mi zdi da se je moj napredek resno upočasnil, in nisem take vrste človek, ki bi lahko to mirno gledal, brez da bi poskušal kaj spremeniti. Nočem se preprosto zabubiti v udobje nerazburljivega vsakdana in mirno čakati na konec. Vse kar lahko ponudim v zameno je ogromno entuziazma, večji del svojega življenja in svoje omejene izkušnje. Kaj praviš? Bi lahko bil del naslednjega poglavja?'
     ],
     titles: [
-      'Klemen Origin STORY',
+      'KLEMEN the origin',
       'poglavje I - Iskra preskoči',
       'poglavje II - Roker po vegovsko',
       'poglavje III - Brca v pravo smer',

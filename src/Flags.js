@@ -27,10 +27,10 @@ export default function Flags (props) {
   return (
     <Container>
       <Button>
-        <Flag src={"https://hatscripts.github.io/circle-flags/flags/si.svg"} animationDuration={0.4}/>
+        <Flag src={"https://hatscripts.github.io/circle-flags/flags/si.svg"} animationDuration={1.0}/>
       </Button>
       <Button>
-	<Flag src={"https://hatscripts.github.io/circle-flags/flags/gb.svg"} animationDuration={0.8}/>
+	<Flag src={"https://hatscripts.github.io/circle-flags/flags/gb.svg"} animationDuration={1.5}/>
       </Button>
     </Container>
 
